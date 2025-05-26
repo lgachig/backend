@@ -9,6 +9,7 @@ router.route('/combanco/ban-segu').get(getBanseguContenido);
 router.route('/combanco/inspes').get(getCombancoPestaniasInstituciones);
 router.route('/eduFin/courses').get(getEduFinCourses);
 
+
 router.route('/ban-segu').post(addBanseguContenido);
 router.route('/combanco/bancos').post(addCombancoInstitucion);
 router.route('/combanco/pestanias').post(addCombancoPestanias);
