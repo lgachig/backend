@@ -5,6 +5,7 @@ const bansegu = require('./rutas/finclu');
 const usuarios = require('./rutas/usuarios');
 const connectDB = require('./config/db');
 const morgan = require('morgan');
+app.set('trust proxy', true); // 👈 AGREGAR ESTA LÍNEA
 
 dotenv.config({ path: './config/config.env' });
 connectDB();
